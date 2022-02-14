@@ -1064,6 +1064,8 @@ PlayableDirector:
     value: {fileID: 668284319}
   - key: {fileID: 294729896527613, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
     value: {fileID: 1054306530}
+  - key: {fileID: 212980180130062801, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
+    value: {fileID: 1366213374}
   m_ExposedReferences:
     m_References:
     - b24314708883be04491d5a9a9f607ace: {fileID: 531693132}
@@ -3326,6 +3328,7 @@ GameObject:
   - component: {fileID: 1291346047}
   - component: {fileID: 1291346046}
   - component: {fileID: 1291346048}
+  - component: {fileID: 1291346049}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -3402,6 +3405,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1291346049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291346045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 749824a0db64f064ab201d25c0c94892, type: 2}
 --- !u!1001 &1338006885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3580,6 +3598,7 @@ GameObject:
   - component: {fileID: 1366213373}
   - component: {fileID: 1366213372}
   - component: {fileID: 1366213374}
+  - component: {fileID: 1366213375}
   m_Layer: 0
   m_Name: CM vcam2
   m_TagString: Untagged
@@ -3656,6 +3675,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1366213375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366213371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 1
+  m_FocusOffset: 2.7
+  m_Profile: {fileID: 11400000, guid: e1751a875fa7b114f88276818fe998e4, type: 2}
 --- !u!1001 &1385427379
 PrefabInstance:
   m_ObjectHideFlags: 0
